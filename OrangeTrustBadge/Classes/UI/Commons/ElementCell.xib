@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -27,7 +31,7 @@
                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="28" id="OvF-aX-Syc"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="OUI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4BG-QW-KD4">
@@ -38,7 +42,7 @@
                             <constraint firstAttribute="width" priority="750" constant="50" id="QxR-Dk-ABF"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_expand_more" translatesAutoresizingMaskIntoConstraints="NO" id="8Cp-xE-Eno" userLabel="Disclosure indicator">
@@ -58,7 +62,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Configure this permission">
-                                    <color key="titleColor" red="0.25882352941176467" green="0.52156862745098043" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.25882352941176467" green="0.52156862745098043" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="openPreferences" destination="xzN-ml-KuV" eventType="touchUpInside" id="6d4-SU-G4l"/>
@@ -66,14 +70,14 @@
                             </button>
                             <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oe9-pS-L6s" userLabel="Upper separator">
                                 <rect key="frame" x="0.0" y="0.0" width="538" height="1"/>
-                                <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="kQS-6P-Tga"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8yB-GD-4gV" userLabel="Upper separator">
                                 <rect key="frame" x="0.0" y="45" width="538" height="1"/>
-                                <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="hr0-H5-3aM"/>
                                 </constraints>
@@ -86,7 +90,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="IuK-fQ-qCW" secondAttribute="trailing" constant="20" id="669-9t-3bC"/>
                             <constraint firstItem="oe9-pS-L6s" firstAttribute="leading" secondItem="itP-6l-3lW" secondAttribute="leading" id="7h9-ag-9uV"/>
@@ -109,6 +113,7 @@
                             <constraint firstAttribute="width" priority="750" constant="49" id="MDK-BF-aUh"/>
                             <constraint firstAttribute="width" priority="250" id="YIr-sR-yCI"/>
                         </constraints>
+                        <color key="onTintColor" red="0.92156862750000001" green="0.38823529410000002" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
                         <connections>
                             <action selector="toggleSwitch" destination="xzN-ml-KuV" eventType="valueChanged" id="m9k-tX-YSb"/>
                         </connections>
@@ -119,7 +124,7 @@
                             <constraint firstAttribute="height" priority="250" constant="17" id="WE2-XE-els"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>

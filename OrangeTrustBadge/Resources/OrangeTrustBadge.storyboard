@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="UuF-5s-lpI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="UuF-5s-lpI">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -58,9 +58,7 @@
                             <outlet property="delegate" destination="mgC-D1-cnK" id="o2W-fr-0Fb"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="e0A-t4-h3F">
-                        <barButtonItem key="backBarButtonItem" title=" " id="bz0-HN-s4h"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="e0A-t4-h3F"/>
                     <connections>
                         <outlet property="header" destination="8QZ-Vw-0cG" id="CtM-Zk-0il"/>
                     </connections>
@@ -174,7 +172,7 @@
                                 <rect key="frame" x="0.0" y="158" width="375" height="167"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GMf-L2-gNB" id="1iA-8c-3Ib">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="166"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="167"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u3n-K1-w6M">
@@ -222,7 +220,7 @@
                                 <rect key="frame" x="0.0" y="325" width="375" height="360"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OhJ-YG-6db" id="yB4-uA-hSO">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="359"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="360"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Slj-u6-7a4">
@@ -590,7 +588,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Ma confidentialité" id="9Yb-P2-iSc">
                         <barButtonItem key="backBarButtonItem" title=" " id="KhI-za-Nt4"/>
-                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="o6G-Op-73N">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="o6G-Op-73N">
                             <connections>
                                 <action selector="dismissModal" destination="GV2-23-p1f" id="k7k-8G-Lau"/>
                             </connections>
@@ -642,7 +640,7 @@
     </scenes>
     <resources>
         <image name="ic_chevron_right" width="24" height="24"/>
-        <image name="otb_illustration" width="88" height="130"/>
+        <image name="otb_illustration" width="32" height="48"/>
         <image name="permission-camera-disabled-icon" width="29" height="29"/>
     </resources>
     <inferredMetricsTieBreakers>
