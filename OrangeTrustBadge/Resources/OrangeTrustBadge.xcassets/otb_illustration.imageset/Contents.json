@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "otb.png",
+      "filename" : "trust_badge.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "otb@2x.png",
+      "filename" : "trust_badge@x2.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "otb@3x.png",
+      "filename" : "trust_badge@x3.png",
       "scale" : "3x"
     }
   ],
